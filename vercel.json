@@ -2,21 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "next.config.js",
+      "src": "package.json",
       "use": "@vercel/next"
     }
   ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ],
   "env": {
-    "NEXT_PUBLIC_API_URL": "https://your-backend-api.com"
+    "NEXT_PUBLIC_API_URL": "https://pnserver-46dj.onrender.com"
   }
 }
