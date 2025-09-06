@@ -15,13 +15,13 @@ export default function AdminLayout({ children }) {
   const { data, error, isLoading } = useGetAdminProfileQuery()
 
   // Redirect if not authenticated or not admin
-  // useEffect(() => {
-  //   if (error || !data?.user) {
-  //     router.push('/admin/login'); // Not logged in
-  //   } else if (data.user.role !== 'admin') {
-  //     router.push('/'); // Logged in but not admin
-  //   }
-  // }, [error, data, router]);
+  useEffect(() => {
+    if (error || !data?.user) {
+      router.push('/admin/login'); // Not logged in
+    } else if (data.user.role !== 'admin') {
+      router.push('/'); // Logged in but not admin
+    }
+  }, [error, data, router]);
 
   // Loading state while checking auth
   if (isLoading) {
