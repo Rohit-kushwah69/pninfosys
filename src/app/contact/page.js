@@ -70,19 +70,19 @@ const Contact = () => {
               {
                 title: "Email Address",
                 links: ["www.pninfosys.com", "support@pninfosys.com"],
-                img: "/About image/service1.jpg",
+                img: "/about image/service1.jpg",
                 alt: "service 1"
               },
               {
                 title: "Phone Number",
                 links: ["+91 7000846823", "+91 7415289378"],
-                img: "/About image/service2.jpg",
+                img: "/about image/service2.jpg",
                 alt: "service 2"
               },
               {
                 title: "Street Address",
                 links: ["Darpan Colony, Thatipur, Gwalior, Madhya Pradesh"],
-                img: "/About image/service3.jpg",
+                img: "/about image/service3.jpg",
                 alt: "service 3"
               }
             ].map((card, index) => (
