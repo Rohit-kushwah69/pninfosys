@@ -10,6 +10,8 @@ import { useGetAllTechnologyQuery } from '../../redux/features/technology/techno
 import { useGetAllEventsQuery } from '../../redux/features/event/eventApi';
 import { useGetAllPortfoliosQuery } from '../../redux/features/portfolio/portfolioApi';
 
+const backgroundImage = '/background-img.png';
+
 
 const Page = () => {
   // technology
@@ -376,7 +378,7 @@ const Page = () => {
             {/* Image Section */}
             <div className='md:w-1/2 flex justify-center'>
               <img
-                src="/home image/service.png"
+                src="/Home image/service.png"
                 alt="service"
                 className='w-full md:pt-30 max-w-[400px] sm:max-w-[400px] md:max-w-[600px] animate-float animate-[bounce_9s_ease-in-out_infinite]'
               />
