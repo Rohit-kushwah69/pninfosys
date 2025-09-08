@@ -123,7 +123,7 @@ const About = () => {
             {/* Image with Video Icon */}
             <div className="relative flex-1">
               <img
-                src="/about image/Learn.png" // use your 'Learn' image path here
+                src="/About image/Learn.png" // use your 'Learn' image path here
                 alt="Learn"
                 className="w-full rounded-lg shadow-lg"
               />
