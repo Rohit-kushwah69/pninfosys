@@ -8,31 +8,31 @@ const MiCompany = () => {
 
     const images = [
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728757357/PN_INFOSYS/workshop_vaibhav1_rlga53.png',
+            src: '/xi/1.png',
             alt: 'Image 1',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728757354/PN_INFOSYS/mi2_bja4yx.jpg',
+            src: '/xi/2.jpg',
             alt: 'Image 2',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728757351/PN_INFOSYS/workshop_vaibhav3_myv7tf.png',
+            src: '/xi/3.png',
             alt: 'Image 3',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728757348/PN_INFOSYS/workshop_vaibhav4_ijiaw4.png',
+            src: '/xi/4.png',
             alt: 'Image 4',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728757336/PN_INFOSYS/mi8_bpehxq.jpg',
+            src: '/xi/5.jpg',
             alt: 'Image 5',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728757346/PN_INFOSYS/mi5_v7fvon.jpg',
+            src: '/xi/6.jpg',
             alt: 'Image 6',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728757343/PN_INFOSYS/mi6_reowcl.jpg',
+            src: '/xi/7.png',
             alt: 'Image 7',
         },
     ];
@@ -60,7 +60,7 @@ const MiCompany = () => {
                         <div className="relative z-10 space-y-4 px-4">
                             <h1 className="text-4xl md:text-5xl font-bold">Xiaomi Mi Company</h1>
                             <p className="text-sm md:text-base text-gray-300">
-                                <a className="text-white font-medium" href="home">Home</a>/Workshop
+                                <a className="text-white font-medium" href="/">Home</a>/Workshop
                             </p>
                         </div>
                     </div>

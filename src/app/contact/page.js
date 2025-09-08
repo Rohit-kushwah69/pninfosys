@@ -187,7 +187,7 @@ const Contact = () => {
         <div className="rounded-xl overflow-hidden shadow-lg w-full h-[400px]">
           <iframe
             title="PN INFOSYS Location"
-            src="https://www.google.com/maps/place/PN+INFOSYS/@26.20837,78.206961,791m/data=!3m1!1e3!4m6!3m5!1s0x3976c3a3faabd5e3:0x88d563b9d79500ed!8m2!3d26.2081772!4d78.2068855!16s%2Fg%2F11fhv3pvv2?hl=en&entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113142.15585757053!2d78.0828746882709!3d26.218287315242994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c42eac1e4ed5%3A0xf08fc53b36e71e11!2sPN%20INFOSYS%2C%20Darpan%20Colony%2C%20Thatipur%2C%20Gwalior%2C%20Madhya%20Pradesh%20474011!5e0!3m2!1sen!2sin!4v1728702200000!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{ border: 0 }}

@@ -8,39 +8,39 @@ const CompanyTours = () => {
 
     const images = [
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729153203/PN_INFOSYS/ture6_ceiaif.jpg',
+            src: '/tours/1.jpg',
             alt: 'Image 1',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729153202/PN_INFOSYS/ture5_ytbmsq.jpg',
+            src: '/tours/2.jpg',
             alt: 'Image 2',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729153162/PN_INFOSYS/ture10_uduscl.jpg',
+            src: '/tours/3.png',
             alt: 'Image 3',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729153162/PN_INFOSYS/ture13_bmtvjb.jpg',
+            src: '/tours/4.jpg',
             alt: 'Image 4',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729153121/PN_INFOSYS/ture17_nzkw7f.jpg',
+            src: '/tours/5.jpg',
             alt: 'Image 5',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729153119/PN_INFOSYS/ture16_sew5jf.jpg',
+            src: '/tours/6.jpg',
             alt: 'Image 6',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729153115/PN_INFOSYS/ture18_re8hdz.jpg',
+            src: '/tours/7.jpg',
             alt: 'Image 7',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729153109/PN_INFOSYS/ture24_cj5env.jpg',
+            src: '/tours/8.jpg',
             alt: 'Image 8',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729153093/PN_INFOSYS/ture43_av3ouc.jpg',
+            src: '/tours/9.jpg',
             alt: 'Image 9',
         },
     ];
@@ -70,7 +70,7 @@ const CompanyTours = () => {
                         <div className="relative z-10 space-y-4 px-4">
                             <h1 className="text-4xl md:text-5xl font-bold">CompanyTours</h1>
                             <p className="text-sm md:text-base text-gray-300">
-                                <a className="text-white font-medium" href="home">Home</a>/Pninfosys
+                                <a className="text-white font-medium" href="/">Home</a>/Pninfosys
                             </p>
                         </div>
                     </div>

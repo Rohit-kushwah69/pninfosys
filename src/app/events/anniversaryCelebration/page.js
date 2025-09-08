@@ -8,32 +8,28 @@ const AniversaryCelebration = () => {
 
     const images = [
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729151245/PN_INFOSYS/a1_hkv6lx.jpg',
+            src: '/anni/1.jpg',
             alt: 'Image 1',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729151245/PN_INFOSYS/a8_m3r8xc.png',
+            src: '/anni/2.png',
             alt: 'Image 2',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729151246/PN_INFOSYS/a4_xtasi3.png',
+            src: '/anni/3.png',
             alt: 'Image 3',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729151246/PN_INFOSYS/a2_bvppmj.png',
+            src: '/anni/4.png',
             alt: 'Image 4',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729151246/PN_INFOSYS/a3_cexhkb.png',
+            src: '/anni/5.png',
             alt: 'Image 5',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729151246/PN_INFOSYS/a5_mlvyf7.png',
+            src: '/anni/6.png',
             alt: 'Image 6',
-        },
-          {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729151246/PN_INFOSYS/a7_a2ugji.png',
-            alt: 'Image 7',
         },
     ];
     return (
@@ -62,7 +58,7 @@ const AniversaryCelebration = () => {
                         <div className="relative z-10 space-y-4 px-4">
                             <h1 className="text-4xl md:text-5xl font-bold">Aniversary Celebration</h1>
                             <p className="text-sm md:text-base text-gray-300">
-                                <a className="text-white font-medium" href="home">Home</a>/Celebration
+                                <a className="text-white font-medium" href="/">Home</a>/Celebration
                             </p>
                         </div>
                     </div>

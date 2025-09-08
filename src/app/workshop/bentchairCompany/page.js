@@ -9,27 +9,27 @@ const BentChair = () => {
 
     const images = [
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728914447/PN_INFOSYS/office1_poojsi.jpg',
+            src: '/ben/1.jpg',
             alt: 'Image 1',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728914448/PN_INFOSYS/office10_fykkki.jpg',
+            src: '/ben/2.jpg',
             alt: 'Image 2',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728914445/PN_INFOSYS/office9_hvslca.jpg',
+            src: '/ben/3.jpg',
             alt: 'Image 3',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728914445/PN_INFOSYS/office6_zpgdrb.jpg',
+            src: '/ben/4.jpg',
             alt: 'Image 4',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728914445/PN_INFOSYS/office8_jo5x2b.jpg',
+            src: '/ben/5.jpg',
             alt: 'Image 5',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728914446/PN_INFOSYS/office15_aynba4.jpg',
+            src: '/ben/6.jpg',
             alt: 'Image 6',
         },
     ];
@@ -57,7 +57,7 @@ const BentChair = () => {
                         <div className="relative z-10 space-y-4 px-4">
                             <h1 className="text-4xl md:text-5xl font-bold">BentChair Company</h1>
                             <p className="text-sm md:text-base text-gray-300">
-                                <a className="text-white font-medium" href="home">Home</a>/Workshop
+                                <a className="text-white font-medium" href="/">Home</a>/Workshop
                             </p>
                         </div>
                     </div>
@@ -66,9 +66,9 @@ const BentChair = () => {
             <section className="py-12 bg-gray-100">
                 <div className="max-w-7xl mx-auto px-4">
                     <h2 className="text-2xl text-pink-500 font-bold text-center mb-1">
-                        Prestige Institute of Management & Research, Gwalior
+                       Workshop by our senior Advisor Mr.Niket Bansal
                     </h2>
-                    <h2 className="text-xl font-sans text-center mb-10">Workshop image</h2>
+                    <h2 className="text-xl font-sans text-center mb-10">BentChair WorkShop</h2>
 
                     {/* Gallery */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">

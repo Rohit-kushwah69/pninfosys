@@ -8,27 +8,27 @@ const StudentBirthday = () => {
 
     const images = [
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728915002/PN_INFOSYS/hbd1_xrxxxc.jpg',
+            src: '/bir/1.png',
             alt: 'Image 1',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728915001/PN_INFOSYS/hbd4_yl8dis.png',
+            src: '/bir/2.jpg',
             alt: 'Image 2',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728915011/PN_INFOSYS/hbd5_spwf9t.jpg',
+            src: '/bir/3.jpg',
             alt: 'Image 3',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728915011/PN_INFOSYS/hbd6_aw5qzj.jpg',
+            src: '/bir/4.jpg',
             alt: 'Image 4',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728915010/PN_INFOSYS/hbd8_lrvzi3.jpg',
+            src: '/bir/5.jpg',
             alt: 'Image 5',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728915003/PN_INFOSYS/hbd16_inzzkz.png',
+            src: '/bir/6.jpg',
             alt: 'Image 6',
         },
     ];
@@ -58,12 +58,13 @@ const StudentBirthday = () => {
                         <div className="relative z-10 space-y-4 px-4">
                             <h1 className="text-4xl md:text-5xl font-bold">Birthday Celebration</h1>
                             <p className="text-sm md:text-base text-gray-300">
-                                <a className="text-white font-medium" href="home">Home</a>/Celebration
+                                <a className="text-white font-medium" href="/">Home</a>/Celebration
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
+            
             <section className="py-12 bg-gray-100">
                 <div className="max-w-7xl mx-auto px-4">
                     <h2 className="text-2xl text-pink-500 font-bold text-center mb-1">

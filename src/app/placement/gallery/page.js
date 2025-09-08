@@ -8,36 +8,36 @@ const students = [
         name: 'ritik bansal',
         role: 'Full Stack Developer',
         company: 'expert webtech',
-        image: 'https://res.cloudinary.com/dow1049t2/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1728759986/PN_INFOSYS/ritikbansal_xrghcp.png',
+        image: '/pg/1.png',
     },
     {
         name: 'Shivraj dhakad',
         role: 'Full Stack Developer',
         company: 'First fiddle',
-        image: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728759990/PN_INFOSYS/shivraj_zjfxu4.png',
+        image: '/pg/2.png',
     },
     {
         name: 'Akanksha Rajauria',
         role: 'Full Stack Developer',
         company: 'Apptech',
-        image: '		https://res.cloudinary.com/dow1049t2/image/upload/v1728759977/PN_INFOSYS/akansha1_x8stzs.jpg',
+        image: '/pg/3.jpg',
     }, {
         name: 'Vipin sharma',
         role: 'Full Stack Developer',
         company: 'capgemini',
-        image: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728759971/PN_INFOSYS/vipinsharma1_bxceq5.jpg', // Replace with real image URL
+        image: '/pg/4.jpg',
     },
     {
         name: 'Vishal Gaur',
         role: 'Software engineer',
         company: 'Infosys',
-        image: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728759972/PN_INFOSYS/vishal1_udfhha.jpg', // Replace with real image URL
+        image: '/pg/5.jpg',
     },
     {
         name: 'rohit rathore',
         role: 'Full Stack Developer',
         company: 'Mile High(Delhi) ',
-        image: '	https://res.cloudinary.com/dow1049t2/image/upload/v1728759976/PN_INFOSYS/rohit_h8gser.jpg', // Replace with real image URL
+        image: '/pg/6.jpg',
     },
 ];
 

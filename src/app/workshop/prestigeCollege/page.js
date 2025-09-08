@@ -8,27 +8,27 @@ const prestigeCollege = () => {
 
   const images = [
     {
-      src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729169427/PN_INFOSYS/img6_xpygv9.jpg',
+      src: '/pr/1.jpg',
       alt: 'Image 1',
     },
     {
-      src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729169427/PN_INFOSYS/img1_esrn7l.jpg',
+      src: '/pr/2.jpg',
       alt: 'Image 2',
     },
     {
-      src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729169426/PN_INFOSYS/img5_cnfkv4.jpg',
+      src: '/pr/3.jpg',
       alt: 'Image 3',
     },
     {
-      src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729169426/PN_INFOSYS/img5_cnfkv4.jpg',
+      src: '/pr/4.jpg',
       alt: 'Image 4',
     },
     {
-      src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729169426/PN_INFOSYS/img2_ruyqjp.jpg',
+      src: '/pr/5.jpg',
       alt: 'Image 5',
     },
     {
-      src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1729169425/PN_INFOSYS/img4_nofmwa.jpg',
+      src: '/pr/6.jpg',
       alt: 'Image 6',
     },
   ];
@@ -57,7 +57,7 @@ const prestigeCollege = () => {
             <div className="relative z-10 space-y-4 px-4">
               <h1 className="text-4xl md:text-5xl font-bold">Prestige Institute of Management & Research,<br /> Gwalior</h1>
               <p className="text-sm md:text-base text-gray-300">
-                <a className="text-white font-medium" href="home">Home</a>/Workshop
+                <a className="text-white font-medium" href="/">Home</a>/Workshop
               </p>
             </div>
           </div>

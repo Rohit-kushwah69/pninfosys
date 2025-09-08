@@ -8,27 +8,27 @@ const RajitCollege = () => {
 
     const images = [
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728914171/PN_INFOSYS/rjit13_2_m7mbj7.jpg',
+            src: '/rus/1.jpg',
             alt: 'Image 1',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728914165/PN_INFOSYS/rjit10_uw3amx.jpg',
+            src: '/rus/2.jpg',
             alt: 'Image 2',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728914165/PN_INFOSYS/rjit4_snukkk.jpg',
+            src: '/rus/3.jpg',
             alt: 'Image 3',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728914165/PN_INFOSYS/rjit1_heqxkk.jpg',
+            src: '/rus/4.jpg',
             alt: 'Image 4',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728914166/PN_INFOSYS/rjit2_kmujen.jpg',
+            src: '/rus/5.jpg',
             alt: 'Image 5',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728914170/PN_INFOSYS/rjit12_tgusem.jpg',
+            src: '/rus/6.jpg',
             alt: 'Image 6',
         },
     ];
@@ -57,7 +57,7 @@ const RajitCollege = () => {
                         <div className="relative z-10 space-y-4 px-4">
                             <h1 className="text-4xl md:text-5xl font-bold">Workshop by Pninfosys in RJIT</h1>
                             <p className="text-sm md:text-base text-gray-300">
-                                <a className="text-white font-medium" href="home">Home</a>/Workshop
+                                <a className="text-white font-medium" href="/">Home</a>/Workshop
                             </p>
                         </div>
                     </div>

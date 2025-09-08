@@ -52,6 +52,7 @@ const Placementdesk = () => {
                     </div>
                 </div>
             </section>
+
             <section>
                 <div className="bg-gradient-to-b from-blue-100 to-white py-16 px-4">
                     {/* Heading */}
@@ -90,13 +91,14 @@ const Placementdesk = () => {
                     </div>
                 </div>
             </section>
+
             <section>
                 {/* Chairman's Message */}
                 <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-28 lg:px-40 gap-10">
                     {/* Image Section */}
                     <div className="w-full md:w-2/5">
                         <img
-                            src="https://res.cloudinary.com/dow1049t2/image/upload/v1728759640/PN_INFOSYS/vj1_wzrqg1.png"
+                            src="/desk/1.png"
                             alt="Chairman"
                             className="rounded-xl w-full object-cover"
                         />
@@ -138,13 +140,14 @@ const Placementdesk = () => {
                     {/* Image Section */}
                     <div className="w-full md:w-2/5">
                         <img
-                            src="https://res.cloudinary.com/dow1049t2/image/upload/v1728759639/PN_INFOSYS/neha_1_fkzh0y.jpg"
+                            src="/desk/2.jpg"
                             alt="CEO"
                             className="rounded-xl w-full object-cover"
                         />
                     </div>
                 </div>
             </section>
+
             <section className="py-12">
                 <div className="max-w-6xl mx-auto text-center px-4">
                     <h1 className="text-3xl font-bold text-gray-800 mb-3">What Our Students Say</h1>
@@ -161,7 +164,6 @@ const Placementdesk = () => {
                     </div>
                 </div>
             </section>
-
 
         </main>
     )

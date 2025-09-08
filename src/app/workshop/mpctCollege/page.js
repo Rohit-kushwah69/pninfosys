@@ -8,30 +8,43 @@ const MpctCollege = () => {
 
     const images = [
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728914171/PN_INFOSYS/rjit13_2_m7mbj7.jpg',
+            src: '/mp/IMG_7757.JPG',
             alt: 'Image 1',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728914165/PN_INFOSYS/rjit10_uw3amx.jpg',
+            src: '/mp/IMG_7774.JPG',
             alt: 'Image 2',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728914165/PN_INFOSYS/rjit4_snukkk.jpg',
+            src: '/mp/IMG_7790.JPG',
             alt: 'Image 3',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728914165/PN_INFOSYS/rjit1_heqxkk.jpg',
+            src: '/mp/IMG_7936.JPG',
             alt: 'Image 4',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728914166/PN_INFOSYS/rjit2_kmujen.jpg',
+            src: '/mp/IMG_7939.JPG',
             alt: 'Image 5',
         },
         {
-            src: 'https://res.cloudinary.com/dow1049t2/image/upload/v1728914170/PN_INFOSYS/rjit12_tgusem.jpg',
+            src: '/mp/IMG_7944.JPG',
             alt: 'Image 6',
         },
+        {
+            src: '/mp/IMG_7948.JPG',
+            alt: 'Image 7',
+        },
+        {
+            src: '/mp/IMG_7950.JPG',
+            alt: 'Image 8',
+        },
+         {
+            src: '/mp/IMG_7956.JPG',
+            alt: 'Image 9',
+        },
     ];
+
     return (
         <main>
             <section>
@@ -57,7 +70,7 @@ const MpctCollege = () => {
                         <div className="relative z-10 space-y-4 px-4">
                             <h1 className="text-4xl md:text-5xl font-bold">Workshop by Pninfosys in MPCT</h1>
                             <p className="text-sm md:text-base text-gray-300">
-                                <a className="text-white font-medium" href="home">Home</a>/Workshop
+                                <a className="text-white font-medium" href="/">Home</a>/Workshop
                             </p>
                         </div>
                     </div>
