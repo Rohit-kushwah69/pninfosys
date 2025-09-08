@@ -2,8 +2,13 @@
 
 import React, { useState } from 'react'
 import toast from 'react-hot-toast'
-import EventModal from '@/component/eventModal'
-import { useCreateEventMutation, useDeleteEventMutation, useGetAllEventsQuery, useUpdateEventMutation } from '../../../../../redux/features/event/page'
+import {
+    useCreateEventMutation,
+    useDeleteEventMutation,
+    useGetAllEventsQuery,
+    useUpdateEventMutation
+} from '../../../../../redux/features/event/page'
+import EventModal from '@/component/EventModal'
 
 export default function Event() {
     const [formData, setFormData] = useState({
