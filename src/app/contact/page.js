@@ -70,20 +70,20 @@ const Contact = () => {
               {
                 title: "Email Address",
                 links: ["www.pninfosys.com", "support@pninfosys.com"],
-                img: "/about%20image/Service1.jpg",
-                alt: "Service 1"
+                img: "/About image/service1.jpg",
+                alt: "service 1"
               },
               {
                 title: "Phone Number",
                 links: ["+91 7000846823", "+91 7415289378"],
-                img: "/about%20image/Service2.jpg",
-                alt: "Service 2"
+                img: "/About image/service2.jpg",
+                alt: "service 2"
               },
               {
                 title: "Street Address",
                 links: ["Darpan Colony, Thatipur, Gwalior, Madhya Pradesh"],
-                img: "/about%20image/Service3.jpg",
-                alt: "Service 3"
+                img: "/About image/service3.jpg",
+                alt: "service 3"
               }
             ].map((card, index) => (
               <div key={index} className="rounded-xl shadow-lg bg-white transition duration-500 text-center p-6">
