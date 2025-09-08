@@ -8,7 +8,7 @@ import {
   FaYoutube, FaInstagram, FaWhatsapp, FaEnvelope
 } from 'react-icons/fa';
 import WhatsAppButton from '@/component/WhatsAppButton';
-import { useCreateInternshipMutation } from '../../../redux/features/internship/page';
+import { useCreateInternshipMutation } from '../../../redux/features/internship/internshipApi';
 
 const Internship = () => {
 

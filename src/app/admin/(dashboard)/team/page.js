@@ -3,7 +3,8 @@
 import React, { useState } from 'react'
 import toast from 'react-hot-toast'
 import TeamModal from '@/component/TeamModal'
-import { useCreateTeamMutation, useDeleteTeamMutation, useGetAllTeamsQuery, useUpdateTeamMutation } from '../../../../../redux/features/team/page'
+import { useCreateTeamMutation, useDeleteTeamMutation,
+     useGetAllTeamsQuery, useUpdateTeamMutation } from '../../../../../redux/features/team/teamApi'
 
 export default function Team() {
     const [formData, setFormData] = useState({

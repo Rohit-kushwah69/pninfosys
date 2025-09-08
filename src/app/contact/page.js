@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from 'next/image';
 import Link from 'next/link';
-import { useCreateContactMutation } from '../../../redux/features/contact/page';
+import { useCreateContactMutation } from '../../../redux/features/contact/contactApi';
 
 const backgroundImage = '/background-img.png';
 const backgroundImage2 = '/page-heading-bg_i9miyf.png';

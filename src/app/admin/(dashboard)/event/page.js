@@ -7,7 +7,7 @@ import {
     useDeleteEventMutation,
     useGetAllEventsQuery,
     useUpdateEventMutation
-} from '../../../../../redux/features/event/page'
+} from '../../../../../redux/features/event/eventApi'
 import EventModal from '@/component/EventModal'
 
 export default function Event() {

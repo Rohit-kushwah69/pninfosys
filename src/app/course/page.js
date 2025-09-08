@@ -1,7 +1,7 @@
 "use client";
 
 import { useGetAllCoursesQuery } from "../../../redux/features/course/courseApi";
-import { useGetAllStudentQuery } from "../../../redux/features/student/page";
+import { useGetAllStudentQuery } from "../../../redux/features/student/studentApi";
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import toast from "react-hot-toast";
@@ -50,7 +50,7 @@ const Course = () => {
     e.preventDefault();
     try {
       await createEnquiry(enquiryForm).unwrap();
-      toast.success("Enquiry submitted successfully 🎉");
+      toast.success("Enquiry submitted successfully");
       setShowModal(false);
       setEnquiryForm({
         firstName: "",

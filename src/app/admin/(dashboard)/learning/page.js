@@ -2,7 +2,8 @@
 
 import React, { useState } from 'react'
 import toast from 'react-hot-toast'
-import { useCreateLearningMutation, useDeleteLearningMutation, useGetAllLearningQuery, useUpdateLearningMutation } from '../../../../../redux/features/learning/learningAPI'
+import { useCreateLearningMutation, useDeleteLearningMutation,
+     useGetAllLearningQuery, useUpdateLearningMutation } from '../../../../../redux/features/learning/learningApi'
 import LearningModal from '@/component/LearningModal'
 
 export default function Learning() {

@@ -6,9 +6,9 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import HeroSlider from '@/component/HeroSlider';
 import WhatsAppButton from '@/component/WhatsAppButton';
-import { useGetAllTechnologyQuery } from '../../redux/features/technology/page';
-import { useGetAllEventsQuery } from '../../redux/features/event/page';
-import { useGetAllPortfoliosQuery } from '../../redux/features/portfolio/page';
+import { useGetAllTechnologyQuery } from '../../redux/features/technology/technologyApi';
+import { useGetAllEventsQuery } from '../../redux/features/event/eventApi';
+import { useGetAllPortfoliosQuery } from '../../redux/features/portfolio/portfolioApi';
 
 
 const Page = () => {

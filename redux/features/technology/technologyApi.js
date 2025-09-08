@@ -10,7 +10,7 @@ export const technologyApi = createApi({
         // CREATE Technology
         createTechnology: builder.mutation({
             query: (formData) => ({
-                url: 'createTechnology', // ✅ matches backend: /createTechnology
+                url: 'createTechnology',
                 method: 'POST',
                 body: formData,
             }),

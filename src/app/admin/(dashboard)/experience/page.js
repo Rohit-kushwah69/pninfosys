@@ -3,7 +3,8 @@
 import React, { useState } from 'react'
 import toast from 'react-hot-toast'
 import ExperienceModal from '@/component/ExperienceModal'
-import { useCreateExperienceMutation, useDeleteExperienceMutation, useGetAllExperienceQuery, useUpdateExperienceMutation } from '../../../../../redux/features/experience/page'
+import { useCreateExperienceMutation, useDeleteExperienceMutation,
+     useGetAllExperienceQuery, useUpdateExperienceMutation } from '../../../../../redux/features/experience/experienceApi'
 
 
 export default function Experience() {

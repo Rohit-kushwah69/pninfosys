@@ -3,7 +3,8 @@
 import React, { useState } from 'react'
 import toast from 'react-hot-toast'
 import PortfolioModal from '@/component/PortfolioModal'
-import { useCreatePortfolioMutation, useDeletePortfolioMutation, useGetAllPortfoliosQuery, useUpdatePortfolioMutation } from '../../../../../redux/features/portfolio/page'
+import { useCreatePortfolioMutation, useDeletePortfolioMutation, useGetAllPortfoliosQuery,
+   useUpdatePortfolioMutation } from '../../../../../redux/features/portfolio/portfolioApi'
 
 export default function Portfolio() {
   const [formData, setFormData] = useState({

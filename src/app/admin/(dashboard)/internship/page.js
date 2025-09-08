@@ -20,7 +20,7 @@ import {
   useViewInternshipQuery,
   useDeleteInternshipMutation,
   useBulkDeleteInternshipsMutation,
-} from "../../../../../redux/features/internship/page";
+} from "../../../../../redux/features/internship/internshipApi";
 import jsPDF from "jspdf";
 import "jspdf-autotable";
 import * as XLSX from "xlsx";

@@ -4,17 +4,18 @@ import adminAuthReducer from './features/adminAuth/adminAuthSlice'
 import { adminAuthApi } from './features/adminAuth/adminAuthApi';
 import { sliderApi } from './features/slider/sliderApi';
 import { courseApi } from './features/course/courseApi';
-import { technologyApi } from './features/technology/page';
-import { portfolioApi } from './features/portfolio/page';
-import { eventApi } from './features/event/page';
-import { teamApi } from './features/team/page';
-import { internshipApi } from './features/internship/page';
-import { contactApi } from './features/contact/page';
+import { portfolioApi } from './features/portfolio/portfolioApi';
+import { eventApi } from './features/event/eventApi';
+import { teamApi } from './features/team/teamApi';
+import { internshipApi } from './features/internship/internshipApi';
+import { contactApi } from './features/contact/contactApi';
 import { learningApi } from './features/learning/learningApi';
-import { experienceApi } from './features/experience/page';
-import { studentApi } from './features/student/page';
-import { contactCardApi } from './features/contactCard/page';
+import { experienceApi } from './features/experience/experienceApi';
+import { studentApi } from './features/student/studentApi';
+import { contactCardApi } from './features/contactCard/contactCardApi';
 import { courseEnquiryApi } from './features/courseEnquiry/courseEnquiryApi';
+import { technologyApi } from './features/technology/technologyApi';
+
 
 
 export const store = configureStore({

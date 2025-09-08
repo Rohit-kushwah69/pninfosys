@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import {
     useDeleteContactMutation,
     useGetAllContactsQuery
-} from "../../../../../redux/features/contact/page";
+} from "../../../../../redux/features/contact/contactApi";
 
 export default function ContactDashboard() {
     const { data, isLoading } = useGetAllContactsQuery();

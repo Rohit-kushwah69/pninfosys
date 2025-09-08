@@ -3,7 +3,8 @@
 import React, { useState } from 'react'
 import toast from 'react-hot-toast'
 import StudentModal from '@/component/StudentModal'
-import { useCreateStudentMutation, useDeleteStudentMutation, useGetAllStudentQuery, useUpdateStudentMutation } from '../../../../../redux/features/student/page'
+import { useCreateStudentMutation, useDeleteStudentMutation, useGetAllStudentQuery, 
+  useUpdateStudentMutation } from '../../../../../redux/features/student/studentApi'
 
 export default function Student() {
   const [formData, setFormData] = useState({

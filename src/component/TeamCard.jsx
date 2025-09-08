@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useGetAllTeamsQuery } from "../../redux/features/team/page";
+import { useGetAllTeamsQuery } from "../../redux/features/team/teamApi";
 
 // const teamData = [
 //     {

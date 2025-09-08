@@ -2,8 +2,13 @@
 
 import React, { useState } from 'react'
 import toast from 'react-hot-toast'
-import TechnologyEditModal from '@/component/technologyModal'
-import { useCreateTechnologyMutation, useDeleteTechnologyMutation, useGetAllTechnologyQuery, useUpdateTechnologyMutation } from '../../../../../redux/features/technology/page'
+import TechnologyEditModal from '@/component/TechnologyModal'
+import {
+    useCreateTechnologyMutation,
+    useDeleteTechnologyMutation,
+    useGetAllTechnologyQuery,
+    useUpdateTechnologyMutation
+} from '../../../../../redux/features/technology/technologyApi'
 
 export default function Technology() {
     const [formData, setFormData] = useState({

@@ -2,7 +2,9 @@
 
 import React, { useState } from 'react';
 import toast from 'react-hot-toast';
-import { useCreateContactCardMutation, useDeleteContactCardMutation, useGetAllContactCardsQuery, useUpdateContactCardMutation } from '../../../../../redux/features/contactCard/page';
+import { useCreateContactCardMutation, useDeleteContactCardMutation,
+     useGetAllContactCardsQuery, useUpdateContactCardMutation }
+      from '../../../../../redux/features/contactCard/contactCardApi';
 import ContactCardModal from '@/component/ContactCardModal';
 
 export default function ContactCard() {

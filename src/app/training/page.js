@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
-import { useGetAllLearningQuery } from '../../../redux/features/learning/learningAPI';
-import { useGetAllExperienceQuery } from '../../../redux/features/experience/page';
+import { useGetAllLearningQuery } from '../../../redux/features/learning/learningApi';
+import { useGetAllExperienceQuery } from '../../../redux/features/experience/experienceApi';
 
 const backgroundImage = '/background-img.png';
 const backgroundImage2 = '/page-heading-bg_i9miyf.png';
