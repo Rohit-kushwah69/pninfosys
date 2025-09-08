@@ -19,7 +19,7 @@ export default function AdminRegisterPage() {
     e.preventDefault()
     try {
       await registerAdmin(formData).unwrap()
-      toast.success('🎉 Registration successful!')
+      toast.success('Registration successful!')
       setTimeout(() => router.push('/admin/login'), 1200)
     } catch (err) {
       console.error('Registration failed:', err)
