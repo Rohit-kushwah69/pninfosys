@@ -31,11 +31,11 @@ const Header = () => {
     {
       name: 'WORKSHOP',
       dropdown: [
+        { label: 'MPCT COLLEGE', href: 'workshop/mpctCollege' },
         { label: 'PRESTIGE COLLEGE', href: 'workshop/prestigeCollege' },
         { label: 'XIAOMI MI COMPANY', href: 'workshop/miCompany' },
         { label: 'BENTCHAIR COMPANY', href: 'workshop/bentchairCompany' },
         { label: 'RJIT COLLEGE', href: 'workshop/rjitCollege' },
-        { label: 'MPCT COLLEGE', href: 'workshop/mpctCollege' },
       ],
     },
     {
@@ -48,9 +48,9 @@ const Header = () => {
     {
       name: 'EVENTS',
       dropdown: [
+        { label: 'TOURS', href: 'events/companyTours' },
         { label: "STUDENTS' BIRTHDAY", href: 'events/studentBirthday' },
         { label: 'ANNIVERSARY CELEBRATION', href: 'events/anniversaryCelebration' },
-        { label: 'TOURS', href: 'events/companyTours' },
       ],
     },
     { name: 'CONTACT', href: 'contact' },

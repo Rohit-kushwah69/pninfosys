@@ -36,7 +36,7 @@ const Training = () => {
                         <div className="relative z-10 space-y-4 px-4">
                             <h1 className="text-4xl md:text-5xl font-bold">Training</h1>
                             <p className="text-sm md:text-base text-gray-300">
-                                <a className="text-white font-medium" href="home">Home</a> / Training
+                                <a className="text-white font-medium" href="/">Home</a> / Training
                             </p>
                         </div>
                     </div>
