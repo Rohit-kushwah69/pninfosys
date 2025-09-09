@@ -15,18 +15,18 @@ export default function AdminLayout({ children }) {
   const { data, error, isLoading } = useGetAdminProfileQuery()
 
   // Redirect if not authenticated or not admin
-  // useEffect(() => {
-  //   if (error || !data?.user) {
-  //     router.push('/admin/login'); // Not logged in
-  //   } else if (data.user.role !== 'admin') {
-  //     router.push('/'); // Logged in but not admin
-  //   }
-  // }, [error, data, router]);
+  useEffect(() => {
+    if (error || !data?.user) {
+      router.push('/admin/login'); // Not logged in
+    } else if (data.user.role !== 'admin') {
+      router.push('/'); // Logged in but not admin
+    }
+  }, [error, data, router]);
 
   // Loading state while checking auth
   if (isLoading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900">
+      <div className="flex items-center justify-center bg-gray-100 dark:bg-gray-900">
         <motion.div
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
@@ -43,7 +43,7 @@ export default function AdminLayout({ children }) {
   }
 
   return (
-    <div className="min-h-screen flex bg-gradient-to-br from-gray-900 via-gray-800 to-gray-950 text-white">
+    <div className=" flex bg-gradient-to-br from-gray-900 via-gray-800 to-gray-950 text-white">
       {/* Desktop Sidebar */}
       <motion.div
         initial={{ x: -200, opacity: 0 }}
