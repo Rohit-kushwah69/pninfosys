@@ -67,11 +67,10 @@ export default function AdminRegisterPage() {
           <button
             type="submit"
             disabled={isLoading}
-            className={`w-full py-2 font-semibold rounded text-white transition-all duration-200 ${
-              isLoading
+            className={`w-full py-2 font-semibold rounded text-white transition-all duration-200 ${isLoading
                 ? 'bg-green-400 cursor-not-allowed'
                 : 'bg-green-600 hover:bg-green-700'
-            }`}
+              }`}
           >
             {isLoading ? (
               <div className="flex items-center justify-center gap-2">
