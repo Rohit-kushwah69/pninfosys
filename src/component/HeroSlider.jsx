@@ -12,15 +12,18 @@ export default function HeroSlider() {
   const slides = Array.isArray(data?.slides) ? data.slides : [];
   const [index, setIndex] = useState(0);
 
+  // Auto-play
   useEffect(() => {
-    const interval = setInterval(() => {
-      setIndex((prev) => (prev + 1) % slides.length);
-    }, 7000);
+    if (!slides.length) return;
+    const interval = setInterval(() => setIndex(prev => (prev + 1) % slides.length), 7000);
     return () => clearInterval(interval);
   }, [slides]);
 
-  const prevSlide = () => setIndex((prev) => (prev - 1 + slides.length) % slides.length);
-  const nextSlide = () => setIndex((prev) => (prev + 1) % slides.length);
+  const prevSlide = () => setIndex(prev => (prev - 1 + slides.length) % slides.length);
+  const nextSlide = () => setIndex(prev => (prev + 1) % slides.length);
+
+  // Debug log
+  console.log({ data, slides, index, isLoading, isError });
 
   if (isLoading) {
     return (
@@ -42,7 +45,7 @@ export default function HeroSlider() {
 
   return (
     <div className="relative w-full h-[700px] overflow-hidden group">
-      {/* Background Image with Parallax */}
+      {/* Background Image */}
       <AnimatePresence mode="wait">
         <motion.div
           key={index}
@@ -75,7 +78,7 @@ export default function HeroSlider() {
         </motion.div>
       </AnimatePresence>
 
-      {/* VIP Overlay */}
+      {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-black/90 via-black/60 to-black/20 z-0" />
 
       {/* Slide Text */}
@@ -115,7 +118,7 @@ export default function HeroSlider() {
         </motion.div>
       </div>
 
-      {/* Slide Arrows */}
+      {/* Arrows */}
       <button
         onClick={prevSlide}
         className="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 p-3 bg-black/50 hover:bg-black/70 text-white rounded-full transition shadow-lg"
@@ -129,7 +132,7 @@ export default function HeroSlider() {
         <ChevronRight size={28} />
       </button>
 
-      {/* Slide Dots */}
+      {/* Dots */}
       <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex gap-3 z-20">
         {slides.map((_, i) => (
           <motion.div
