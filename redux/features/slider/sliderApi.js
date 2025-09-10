@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 export const sliderApi = createApi({
   reducerPath: 'sliderApi',
   baseQuery: fetchBaseQuery({
-    baseUrl: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api/',
+    baseUrl: process.env.NEXT_PUBLIC_API_URL,
   }),
   tagTypes: ['Slider'],
   endpoints: (builder) => ({
@@ -24,7 +24,7 @@ export const sliderApi = createApi({
         url: `updateSlider/${id}`,
         method: 'POST',
         body: formData,
-        headers: undefined, // Critical: do NOT set Content-Type
+        headers: undefined,
       }),
       invalidatesTags: ['Slider'],
     }),
