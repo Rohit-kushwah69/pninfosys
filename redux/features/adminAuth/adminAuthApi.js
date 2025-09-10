@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const adminAuthApi = createApi({
     reducerPath: "adminAuthApi",
     baseQuery: fetchBaseQuery({
-        baseUrl: process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000/api/admin",
+        baseUrl: process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000/api",
         credentials: "include", // send cookies for authentication
     }),
     tagTypes: ["AdminAuth"],
