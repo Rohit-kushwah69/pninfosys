@@ -24,7 +24,7 @@ export const sliderApi = createApi({
         url: `updateSlider/${id}`,
         method: 'POST',
         body: formData,
-        headers: undefined,
+        headers: undefined, // Critical: do NOT set Content-Type
       }),
       invalidatesTags: ['Slider'],
     }),
